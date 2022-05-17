@@ -1,5 +1,4 @@
 @import "base.css";
-
 .container {
     position: relative;
     height: 100%;
@@ -7,7 +6,7 @@
     margin-left: 150px;
 }
 
-.intro-Container{
+.intro-Container {
     position: relative;
     width: 100%;
     height: 100%;
@@ -19,17 +18,17 @@
     align-items: center;
 }
 
-
-.banner{
+.banner {
     width: 100%;
     height: 100vh;
     position: relative;
     z-index: 1;
 }
 
+
 /* banner  */
 
-.banner{
+.banner {
     width: 100%;
     height: 100vh;
     background-image: url(https://www.simpleimageresizer.com/_uploads/photos/5bd2be7c/ocean_1280x743.jpg);
@@ -37,6 +36,7 @@
     position: relative;
     z-index: 1;
 }
+
 
 /* button */
 
@@ -57,4 +57,179 @@
     text-decoration: none;
     cursor: pointer;
     transition: all 2.5 ease-in-out;
+}
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    box-shadow: none;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    -webkit-transition-duration: 0;
+    transition-duration: 0;
+}
+
+body {
+    background-image: url('alexander-andrews-yOIT88xWkbg-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cookies1 {
+    position: fixed;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    border-radius: 8px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 15px;
+    display: none;
+    box-shadow: 5px 5px 15px -6px #888888;
+    z-index: 10000;
+}
+
+#cookies1 p {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#cookies1 #but1 {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #2a93ff;
+    color: white;
+    margin-top: 15px;
+}
+
+#cookies1 #but2 {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: white;
+    border: #2a93ff solid 1.5px;
+    color: #2a93ff;
+    margin-top: 15px;
+}
+
+#cookies1 #but2:hover {
+    color: #1d68b3;
+    transition-duration: 0.5s;
+}
+
+#cookies1 #but1:hover {
+    background-color: #1d68b3;
+}
+
+#cookies2 {
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 8px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 15px;
+    display: none;
+}
+
+#cookies2 #but3 {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #2a93ff;
+    color: white;
+}
+
+#cookies2 #but3:hover {
+    background-color: #1d68b3;
+}
+
+#cookies2 h3 {
+    font-size: 15px;
+}
+
+#flex {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+#inerbox {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#backgroundOP {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    transform: translateX(30px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
 }
