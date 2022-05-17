@@ -1,7 +1,6 @@
-function showLocation(position) {
-    const { longitude, latitude } = position.coords;
-    map.setCenter([longitude, latitude]);
-}
+"use strict"
+
+function showLocation(position) {}
 
 function errorHandler() {
     console.log('nope')
@@ -17,7 +16,6 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYmVhcml1bSIsImEiOiJjbDF3ZzJ4MW0wZGRvM2tvMXdpZ
 const map = new mapboxgl.Map({
     container: 'map', // container ID
     style: 'mapbox://styles/mapbox/streets-v11', // style URL
-    center: [0, 0], // starting position [lng, lat]
-    dragPan: false,
+    center: [-97.1750196, 49.8482787], // starting position [lng, lat]
     zoom: 17 // starting zoom
 });
