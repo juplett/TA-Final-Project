@@ -21,3 +21,5 @@ const map = new mapboxgl.Map({
     dragPan: false,
     zoom: 17 // starting zoom
 });
+
+//test
