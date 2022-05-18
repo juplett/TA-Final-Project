@@ -8,14 +8,7 @@
     background-color: aqua;
 }
 
-#outer {
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+
 
 #outer p {
     font-size: 35px;

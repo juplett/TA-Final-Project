@@ -19,7 +19,7 @@
     background-image: url(https://images.unsplash.com/photo-1595113316349-9fa4eb24f884?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072);
     background-size: cover;
     position: relative;
-    z-index: 1;
+    z-index: 1111;
 }
 
 .cover {
@@ -30,6 +30,18 @@
     position: absolute;
     z-index: 5555;
 }
+
+/* conatct us pg only */
+#outer {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9999;
+}
+/* ----------------- */
 
 .container {
     position: relative;
@@ -99,47 +111,3 @@ header h1 a{
     text-decoration: none;
 }
 
-/* footer */
-
-footer{
-    min-width: 100%;
-    background: navy;
-    overflow: hidden;
-
-}
-footer div{
-    display: flex;
-    justify-content: space-between;
-}
-.FooterNav i:first-child{
-    margin-left: 10px;
-}
-.FooterNav title p{
-    margin-right: 10px;
-}
-.FooterNav{
-    text-align: right;
-    height: 70px;
-    margin-right: 60px;
-}
-.FooterNav ul{
-    list-style: none;
-    font-size: 0px;
-}
-.FooterNav ul li{
-    display: inline;
-    line-height: 70px;
-    cursor: default;
-}
-.FooterNav ul li a{
-    font-size: 17px;
-    color: black;
-    font-weight: 600;
-    text-decoration: none;
-    letter-spacing: .2px;
-    cursor: pointer;
-}
-
-.FooterNav ul li +li{
-    margin-left: 25px;
-}
