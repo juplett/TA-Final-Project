@@ -53,10 +53,10 @@ nav ul li{
 }
 
 nav ul li a{
-    font-size:  17px;
+    font-size:  20px;
     font-weight: 500;
     padding: 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     letter-spacing: .2px;
     text-transform: none;
@@ -68,6 +68,14 @@ nav ul li a :hover{
 }
 
 nav ul li + li{
-    margin-left: 25px;
+    margin-left: 35px;
 
+}
+
+header h1 a{
+    padding-top: 10px;
+    font-weight: 500;
+    color: #fff;
+    color: #fff;
+    text-decoration: none;
 }
